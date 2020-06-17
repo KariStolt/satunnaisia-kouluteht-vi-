@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background: ghostwhite;
+}
+.wrapper {
+    position: relative;
+    background: url(mariotausta.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.mario {
+    background-image: url(Paper-Mario-icon.png);
+    z-index: 3;
+    top: 60%;
+    left: 65%;
+    position: absolute;
+    height: 256px;
+    width: 256px;
+}
+.block {
+    background-image: url(block.png);
+    z-index: 4;
+    position: absolute;
+    top: 42%;
+    left: 65%;
+    height: 256px;
+    width: 256px;
+}
+#mouse, #mouse-center {
+    color: greenyellow;
+    margin-top: 10px;
+}

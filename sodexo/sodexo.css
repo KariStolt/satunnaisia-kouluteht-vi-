@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(255, 170, 25);
+    text-align: center;
+    font-family: monospace;
+}
+header {
+    height: 90px;
+    font-family: monospace;
+    text-align: center;
+    font: bolder;
+    font-size: 36pt;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-family: monospace;
+    text-align: center;
+    font-size: 24pt;
+}
+
+ul {
+   
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    color: white;
+    border: 2px solid black;
+    width: 60%;
+    background-color: indigo;
+}
+li {
+    font-size: 18pt;
+    padding: 1em;
+}
+.pulse {
+	-webkit-animation: pulse 800ms infinite alternate;
+	        animation: pulse 800ms infinite alternate;
+}
+@-webkit-keyframes pulse {
+	0% { color: rgb(37, 0, 64); font-size: 36pt;}
+	100% { color: rgb(132, 0, 229); font-size: 24pt;}
+}
+@keyframes pulse {
+	0% { color:  rgb(37, 0, 64); font-size: 36pt;}
+	100% { color: rgb(132, 0, 229); font-size: 24pt}
+}
+
+.buttons .button {
+    font-family: monospace;
+    background-color: indigo;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons .button:hover {
+    background-color: rgb(147, 0, 255)
+}

@@ -1,0 +1,15 @@
+<Document>
+<Placemark>
+<LineString>
+<coordinates>20,20,60,60</coordinates>
+<coordinates>60,60,100,20</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<color>#ff0000</color>
+</LineStyle>
+</Style>
+<Text>Täällä ne viivat on</Text>
+<Text>Sait homman toimimaan. Hyvä!</Text>
+</Placemark>
+</Document>
